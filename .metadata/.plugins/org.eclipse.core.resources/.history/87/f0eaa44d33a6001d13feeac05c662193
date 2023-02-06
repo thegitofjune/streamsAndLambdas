@@ -1,0 +1,45 @@
+package com.june.streamsAndLambdas;
+
+public class Person {
+
+	private String username;
+	private double averageScore;
+	private int age;
+
+	public Person(String username, double averageScore, int age) {
+		super();
+		this.username = username;
+		this.averageScore = averageScore;
+		this.age = age;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public double getAverageScore() {
+		return averageScore;
+	}
+
+	public void setAverageScore(double averageScore) {
+		this.averageScore = averageScore;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	@Override
+	public String toString() {
+		return "Person [username=" + username + ", averageScore=" + averageScore + ", age=" + age + "]";
+	}
+
+}
